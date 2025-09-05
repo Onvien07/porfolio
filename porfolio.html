@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio Project</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Scroll Progress Bar -->
+  <div id="progress-bar"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text fade-in">
+      <h1 class="glow-text">To Onvien Jamal Steve</h1>
+      <p>
+        This is a showcase of my work and projects. <br>
+        I am a mobile and web developer.
+      </p>
+      <div class="btn-div">
+        <button type="button" class="btn">My Github</button>
+        <button type="button" class="btn">Contact me</button>
+      </div>
+    </div>
+    <div class="hero-div slide-in-right">
+      <img src="NBA.jpg" alt="hero-img" class="hero-img">
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section class="about fade-in">
+    <div class="about-container">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is <strong>To Onvien Jamal Steve</strong>.  
+        I am passionate about technology, coding, and building impactful projects.  
+        My journey started with curiosity for mobile and web development, and today I focus on creating meaningful applications.  
+        Besides coding, I enjoy <em>basketball, dance, and reading</em>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills with Images -->
+  <section class="skills fade-in">
+    <div class="skill-card">
+      <img src="ss.jpg" alt="Frontend Development">
+      <h3>Frontend Development</h3>
+    </div>
+    <div class="skill-card">
+      <img src="devvv.jpg" alt="Backend Development">
+      <h3>Backend Development</h3>
+    </div>
+    <div class="skill-card">
+      <img src="op.png" alt="UI/UX Design">
+      <h3>UI/UX Design</h3>
+    </div>
+  </section>
+
+  <!-- Citation -->
+  <section class="quote fade-in">
+    <blockquote>
+      "Code is like humor. When you have to explain it, it’s bad."
+    </blockquote>
+    <cite>- Cory House</cite>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact fade-in">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your name" required>
+      <input type="email" placeholder="Your email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <script src="index.js"></script>
+</body>
+</html>
